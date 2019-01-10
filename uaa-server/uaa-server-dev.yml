@@ -1,0 +1,6 @@
+server:
+  port: 19020
+
+spring:
+  application:
+    name: jrmarcco-uaa-server
