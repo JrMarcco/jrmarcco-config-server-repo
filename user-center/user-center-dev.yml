@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://101.132.37.220:3306/user-center-dev?characterEncoding=utf8&serverTimezone=GMT%2b8&zeroDateTimeBehavior=CONVERT_TO_NULL
+    url: jdbc:mysql://101.132.37.220:3306/user-center-dev?useUnicode=true&&characterEncoding=utf8&serverTimezone=GMT%2b8&zeroDateTimeBehavior=CONVERT_TO_NULL
     username: '{cipher}d5ff70b24a3b0246ddb60072d9951f2e31febbde409b8fbffba66ecd1c0da8cb'
     password: '{cipher}aea2102602a77056a4d259bedcbe92ff795f70c261d0ffdea84325'
     driver-class-name: com.mysql.cj.jdbc.Driver
