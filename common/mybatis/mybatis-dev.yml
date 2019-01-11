@@ -1,5 +1,3 @@
 mybatis:
   configLocation: classpath:mybatis-config.xml
   mapperLocations: classpath:/*.xml
-  configuration:
-    map-underscore-to-camel-case: true
