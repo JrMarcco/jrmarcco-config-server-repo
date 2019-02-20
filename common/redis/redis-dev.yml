@@ -3,8 +3,4 @@ spring:
     host: 101.132.37.220
     port: 6379
     password: '{cipher}AgBWgvbMhANsDfMe1TTLlC7cp4HtiaqfL2CYowsWx4H9wWsz7DZ3oBxIRVQQH44lupqFVQxtrHbx0tbjtIYsqFouiSWpAl/n36Mr1i13F7zfy0UtHmhnIPU7aMXTwIb2BnpNVZe163snel81km4dcd718ZkQYxbGE0B68SbOjuWP2ThtpjqkUTriEVNVPJ0i5hwG0K56tQZ2Qgvr/w9T2BQtoGbuFExn0mndt8SH5ZEJHxiDoY5pi2NGxPosIYTcpeuA8ohB+9K66CebmqB6IIltD3DdwO0/v7OMdpCEKGnk1r29hcwjHjiIjzYl44YKS0rEtENie7aoS6QInv3IDzooOeqOuW/NVaNlWoz+D4JupRompe2EF9wEQNoLzTEYb4JoFH+Jv+7HTKLnGNzZETjneJk5E9dcYZGc13Pj26DVp2X7MuHvdDm8i7sPIeQHEnJahbYXlPl8Xv+8Vn2VX9A93Vn4tMwvwTcs96dJuT2IBi/+FZbdYMz3X0GmNilrkvOntLK7S/p1+HehRxp7tWC2E5ahD9yZuF4/2pj2EG8btMZdwqtsy1v0t/Mjkj2W62Ncet3/dNJhLp/oT/AGidi8lvdu/jXVP6u48++hEjeMvqVaOqWaBu762BQkhm9sxj9BpqgmU0fdvwTh6jE+XqKW59I8cdyg0Ry0Jpof+aqcuXeOhF+XDnGI8UnOgv+2YGZL1WRstlfn4rD9jLbJHSzW'
-    lettuce:
-      pool:
-        max-active: 10
-        max-idle: 10
-        min-idle: 0
+    timeout: 10000
