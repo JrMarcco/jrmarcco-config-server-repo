@@ -11,17 +11,18 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     filters: stat
     maxActive: 20
-    initialSize: 1
+    initialSize: 5
     maxWait: 60000
-    minIdle: 1
+    minIdle: 5
     timeBetweenEvictionRunsMillis: 60000
     minEvictableIdleTimeMillis: 300000
-    validationQuery: select 'x'
+    validationQuery: SELECT 1 FROM DUAL
     testWhileIdle: true
     testOnBorrow: false
     testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
 
 jrmarcco:
   jwt:
